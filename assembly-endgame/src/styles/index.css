@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+body {
+  background-color: #282726;
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+  color: #F9F4DA;
+}

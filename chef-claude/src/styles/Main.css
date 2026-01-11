@@ -1,0 +1,93 @@
+.main {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 75px 0 35px;
+    gap: 12px
+}
+
+.form__input {
+    padding: 13px;
+    border: solid 1px #D1D5DB;
+    border-radius: 6px;
+    flex-grow: 1;
+    /* width: 40%; */
+    font-size: 1.3rem;
+}
+
+.form__button {
+    padding: 0 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    color: #F8F8F8;
+    background-color: #141413;
+    border: none;
+}
+
+.form__button:hover {
+    cursor: pointer;
+}
+
+.form__button::before {
+    content: "+";
+    margin-right: 8px;
+}
+
+.section--ingredients__h2 {
+    font-size: 2.3rem;
+    padding: 8px 0;
+}
+
+.section--ingredients__li {
+    margin: 16px 0;
+    font-size: 1.2rem;
+}
+
+.section--ingredients__div {
+    background-color: #F0EFEB;
+    margin-top: 44px;
+    margin-bottom: 24px;
+    padding: 28px 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.section--ingredients__div__div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section--ingredients__div__div__h3 {
+    font-size: 1.3rem;
+}
+
+.section--ingredients__div__div__p {
+    color: #6B7280;
+}
+
+.section--ingredients__div__button {
+    background-color: #D17557;
+    border: none;
+    border-radius: 6px;
+    color: #FAFAF8;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.section--ingredients__div__button:hover {
+    cursor: pointer;
+}

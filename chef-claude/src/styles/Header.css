@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 28px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  gap: 11px
+}
+
+.header__logo {
+  width: 3rem;
+  height: auto;
+}
+
+.header__h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
